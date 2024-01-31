@@ -1,3 +1,0 @@
-install xah fly keys  dashboard gruvbox theme dirvish
-
-
