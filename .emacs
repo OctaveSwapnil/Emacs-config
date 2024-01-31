@@ -49,6 +49,8 @@
 (when (fboundp 'native-compile-async)
   (setq comp-deferred-compilation t
       comp-deferred-compilation-black-list '("/mu4e.*\\.el$")))
+;; Disable native comp warnings
+(setq native-comp-async-report-warnings-errors nil)
 
 ;; Setup spelling correction
 (setq ispell-program-name "aspell") ;; Make spell checking use aspell instead of ispell
